@@ -33,7 +33,7 @@ export default class App extends React.Component{
                 >
                 </input>
                 <label htmlFor={'plan' + item.id} className="sale-window__label">
-                  <div>
+                  <div className="sale-window__label-wrap">
                     <span className="sale-window__button"></span>
                     <span className="sale-window__label-name">{item.name}</span>
                   </div>

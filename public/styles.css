@@ -88,7 +88,7 @@
 
 
 .sale-window__input:checked + .sale-window__label {
-    border: 1px solid #0495c9;
+    box-shadow: inset 0 0 0 1px rgba(4,149,201,1);
     background-color: #0495c91f;
 }
 
@@ -100,6 +100,11 @@
     width: 100%;
     justify-content: space-between;
     padding: 10px 6px;
+}
+
+.sale-window__label-wrap {
+    display: flex;
+    align-items: center;
 }
 
 .sale-window__label-price {
@@ -115,7 +120,6 @@
     font-size: 20px;
     color: #777777;
     text-transform: uppercase;
-    vertical-align: text-bottom;
 }
 
 .sale-window__controls {
@@ -184,8 +188,6 @@
 
 .sale-window__button {
     position: relative;
-    top: 4px;
-    left: 2px;
     display: inline-block;
     width: 20px;
     height: 20px;
